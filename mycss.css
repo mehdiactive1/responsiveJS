@@ -1,0 +1,13 @@
+
+h1 {
+	text-align: center;
+	color: pink;
+	margin-top: 50px;
+}
+#res-js {
+	width: 200px;
+	height: 100px;
+	background-color: lightblue;
+	margin-top: 100px;
+	border-radius: 5px;
+}
