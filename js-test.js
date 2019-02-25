@@ -14,3 +14,10 @@ $(window).resize(function() {
     $("#res-js").css("background-color", "pink");
   }
 });
+
+$(window).scroll(function(){
+	var height = $(window).height();
+	if (height > 700) {
+		alert("The End!");
+	}
+});
