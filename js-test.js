@@ -15,9 +15,13 @@ $(window).resize(function() {
   }
 });
 
-$(window).scroll(function(){
-	var height = $(window).height();
-	if (height > 700) {
-		alert("The End!");
+
+$(window).on("scroll", function() {
+	var scrollHeight = $(document).height();
+	var scrollPosition = $(window).height() + $(window).scrollTop();
+var current =(scrollHeight - scrollPosition) / scrollHeight;
+
+	if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
+	    alert("end")
 	}
 });
